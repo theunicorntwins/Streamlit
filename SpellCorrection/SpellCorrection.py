@@ -1,4 +1,5 @@
-from nltk import word_tokenize
+from nltk import download, word_tokenize
+download('punkt')
 from autocorrect import Speller
 import streamlit as st
 
