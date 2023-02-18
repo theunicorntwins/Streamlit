@@ -5,7 +5,7 @@ import streamlit as st
 
 st.title("Spell Correction")
 st.write("""
-### A tool that helps to fix your error vocabulary?
+#### A tool that helps to fix your error vocabulary?
 """)
 
 sentence = st.text_input('Your text is: ')
@@ -19,4 +19,3 @@ def correct_spelling(tokens):
     return sentence_corrected
 
 st.write(correct_spelling(tokens))
-
