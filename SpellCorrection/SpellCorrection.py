@@ -1,6 +1,5 @@
 from nltk import word_tokenize
 from autocorrect import Speller
-import string
 import streamlit as st
 
 st.title("Spell Correction")
