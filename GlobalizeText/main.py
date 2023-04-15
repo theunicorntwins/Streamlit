@@ -33,11 +33,11 @@ prompt = PromptTemplate(
 )
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 def load_LLM():
     """Logic for loading the chain you want to use should go here."""
-    llm = OpenAI(temperature=.5)
+    llm = OpenAI(temperature=.9)
     return llm
 
 llm = load_LLM()
