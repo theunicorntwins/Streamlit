@@ -14,7 +14,7 @@ st.title("Diabetes Prediction")
 #                                                              "Super Vector Machine (SVC)",
 #                                                              "XGBoost (XGB)"))
 
-diabetes = pd.read_csv('/Users/kaylakim/PycharmProjects/Diabetes/diabetes.csv')
+diabetes = pd.read_csv('https://github.com/theunicorntwins/Streamlit/blob/main/DiabetesPredictionApp/diabetes.csv')
 
 # getting the input data from the user
 # col1, col2, col3 = st.columns(3)
