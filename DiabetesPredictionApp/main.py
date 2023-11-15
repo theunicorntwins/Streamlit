@@ -23,7 +23,7 @@ diabetes = pd.read_csv('https://raw.githubusercontent.com/theunicorntwins/Stream
 # with col1:
 #     Pregnancies = st.text_input("Number of Pregnancies")
 # with col2:
-#     Glucose = st.text_input("Glocose Level")
+#     Glucose = st.text_input("Glucose Level")
 # with col3:
 #     BloodPressure = st.text_input("Blood Pressure value")
 #
@@ -50,7 +50,7 @@ accuracy = round(accuracy_score(y_valid, y_pred), 3)*100
 st.write(f"Accuracy= {accuracy}%")
 
 Pregnancies = st.text_input("Number of Pregnancies")
-Glucose = st.text_input("Glocose Level")
+Glucose = st.text_input("Glucose Level")
 BloodPressure = st.text_input("Blood Pressure value")
 SkinThickness = st.text_input("Skin Thickness value")
 Insulin = st.text_input("Insulin Level")
